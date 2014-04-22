@@ -1,0 +1,79 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="project-import">
+
+  <info xmlns:facet="http://projectmallard.org/facet/1.0/">
+    <facet:tag key="all-pages" value="whatever"/> <!--Include page in index-->
+    <link type="guide" xref="index#anjuta-project-management" group="first"/>
+    <link type="seealso" xref="anjuta-project-create"/>
+    <link type="seealso" xref="project-manager"/>
+    <revision pkgversion="3.0" version="0.1" date="2011-03-27" status="incomplete"/>
+    <desc>
+      Import an existing project.
+    </desc>
+    <credit type="author">
+      <name>Sébastien Granjoux</name>
+      <email>seb.sfo@free.fr</email>
+    </credit>
+    <credit type="editor">
+      <name>Philip Chimento</name>
+      <email>philip.chimento@gmail.com</email>
+    </credit>
+  </info>
+
+  <title>Import a Project</title>
+
+  <p>
+    <app>Anjuta</app> does not have its own project format. It loads projects
+    using already existing formats, like makefile or autotools, and does not
+    require that other developers use it.
+    Anjuta's own settings are stored in a file with the <file>.anjuta</file> extension
+    and a hidden directory created in the project directory.
+    To use a project in <app>Anjuta</app> and create these settings files, you
+    will need to import the project. This will not modify any project files.
+  </p>
+
+  <steps>
+    <item>
+      <p>
+        From the <gui>main menu</gui>, select <guiseq><gui>File</gui>
+        <gui>New</gui><gui>Project from Existing Sources</gui></guiseq>
+        or <gui>Project from Existing Sources</gui> from the drop-down
+        list of the <gui>New</gui> button in the <gui>top tool bar</gui>
+        to start the project wizard.
+      </p>
+    </item>
+    <item>
+      <p>
+        Select <gui>Import from folder</gui> if the project is already
+        present on your computer, then select the project directory.
+      </p>
+      <p>
+        Or Select <gui>Import from version control system</gui> if the
+        project needs to be checked out from a server. Then select the
+        version control system, the server address and the destination directory
+        on your computer.
+      </p>
+    </item>
+    <item>
+      <p>
+        After selecting an existing project, the <gui>Project name</gui>
+        text box should be filled with the name of the project's directory,
+        but you can change it.
+        When it's done, click on the <gui>Import</gui> button to download the
+        project if needed and create the files needed by <app>Anjuta</app>.
+      </p>
+    </item>
+    <item>
+      <p>
+        <app>Anjuta</app> tries to automatically find the project backend
+        used by your project. But if several backends are possible,
+        you will get a dialog asking you to choose a project backend
+        plugin. Read the project backend description to find out which one to
+        choose.
+      </p>
+    </item>
+  </steps>
+
+</page>
+

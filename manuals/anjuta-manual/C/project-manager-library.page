@@ -1,0 +1,24 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="project-manager-library"
+      groups="first second third fourth fifth sixth seventh">
+
+  <info xmlns:facet="http://projectmallard.org/facet/1.0/">
+    <facet:tag key="all-pages" value="whatever"/> <!--Include page in index-->
+    <link type="guide" xref="index#anjuta-project-management" group="fourth"/>
+    <link type="seealso" xref="project-manager"/>
+    <link type="seealso" xref="project-manager-treeview"/>
+    <link type="seealso" xref="project-manager-target"/>
+    <revision pkgversion="3.0" version="0.1" date="2011-03-27" status="incomplete"/>
+    <desc>
+      Add or remove libraries to project targets.
+    </desc>
+    <credit type="author">
+      <name>Sébastien Granjoux</name>
+      <email>seb.sfo@free.fr</email>
+    </credit>
+  </info>
+
+  <title>Manage Libraries</title>
+</page>
+

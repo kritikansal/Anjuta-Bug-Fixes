@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="general-feature">
+
+  <info>
+    <link type="guide" xref="index#faq-general"/>
+    <desc>Because nobody has written it yet.</desc>
+    
+    <revision pkgversion="0.1" version="0.1" date="2010-12-02" status="stub"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Naba Kumar</name>
+      <email>naba@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Biswapesh Chattopadhyayr</name>
+    </credit>
+  </info>
+
+  <title>Why does <app>Anjuta</app> not have my favourite feature?</title>
+
+  <p><app>Anjuta</app> is free and open source software. You are encouraged
+  to <link href="https://live.gnome.org/Git/Developers">take the source code</link> and add the features you would like to see. You can also <link xref="general-bugs">file an enhancement request</link> or send a message to the <link href="https://mail.gnome.org/mailman/listinfo/anjuta-devel-list">development mailing list</link> to discuss your ideas first.</p>
+
+</page>

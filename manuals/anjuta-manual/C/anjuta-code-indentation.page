@@ -1,0 +1,67 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="anjuta-code-indentation">
+
+  <info xmlns:facet="http://projectmallard.org/facet/1.0/">
+    <facet:tag key="all-pages" value="whatever"/> <!--Include page in index-->
+    <link type="guide" xref="index#anjuta-code" group="first"/>
+    <revision pkgversion="3.0" version="0.1" date="2011-10-24" status="draft"/>
+    <desc>
+      Configure and use automatic indentation for a consistent coding style
+    </desc>
+
+    <credit type="author">
+      <name>Johannes Schmid</name>
+      <email>jhs@gnome.org</email>
+    </credit>
+  </info>
+
+  <title>Auto-indentation</title>
+
+<section>
+<title>Configuring and using auto-indentation</title>
+
+<section>
+<title>Manual configuration</title>
+
+<p>Automatic indentation is configured in the preferences 
+(<guiseq><gui>Edit</gui><gui>Preferences</gui></guiseq>) in the tab corresponding
+to the used programming language. The indentation width for several types
+of statements can be set there.</p>
+
+<p>The big disadvantage of manually configuring indentation is that all 
+developers working on a project must use the same settings or it will result
+if different styles used in the same files. For a better solution, see
+the next section.</p>
+
+<note>
+<p>Unless explicitely changed in the preferences the indentation settings found
+in the Modeline of a file will be used instead of the 
+configured settings to keep the file consistent.</p>
+</note>
+</section>
+
+<section id="editor-modelines" >
+<title>Modelines</title>
+
+<p>Modelines are used to help editors to automatically detect the indentation
+mode which should be used for a particular file. They are especially useful if
+many developers work on the same project and use different environments.</p>
+
+<p>Anjuta supports modelines in the two formats used by <app>Vim</app> and 
+<app>Emacs</app>.</p>
+
+</section>
+
+</section>
+
+<section>
+<title>Indenting blocks of code</title>
+
+<p>Normally new lines are approprietely indented automatically but you can
+indent existing lines or all selected code with the 
+<guiseq><gui>Edit</gui><gui>Auto-Indent</gui></guiseq> menu item.</p>
+
+</section>
+
+</page>

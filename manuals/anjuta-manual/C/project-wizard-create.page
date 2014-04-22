@@ -1,0 +1,93 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic" style="task"
+      id="project-wizard-create">
+
+  <info xmlns:facet="http://projectmallard.org/facet/1.0/">
+    <facet:tag key="all-pages" value="whatever"/> <!--Include page in index-->
+    <link type="guide" xref="index#anjuta-project-management" group="first"/>
+    <link type="seealso" xref="project-manager"/>
+    <revision pkgversion="3.0" version="0.1" date="2011-03-27" status="incomplete"/>
+    <desc>
+      Create a new project from scratch.
+    </desc>
+    <credit type="author">
+      <name>Sébastien Granjoux</name>
+      <email>seb.sfo@free.fr</email>
+    </credit>
+    <credit type="editor">
+      <name>Philip Chimento</name>
+      <email>philip.chimento@gmail.com</email>
+    </credit>
+  </info>
+
+  <title>Create a Project</title>
+
+  <p>
+    New projects are created from templates. <app>Anjuta</app> will ask you
+    for various information, like the type of the project, its name and more.
+  </p>
+
+  <steps>
+    <item>
+      <p>
+        From the <gui>main menu</gui>, select <guiseq><gui>File</gui>
+        <gui>New</gui><gui>Project</gui></guiseq>.
+      </p>
+      <p>
+        Or from the drop-down list of the
+        <gui>New</gui> button in the <gui>top tool bar</gui>, select
+        <gui>Project</gui>
+        to start the project wizard.
+      </p>
+    </item>
+    <item>
+      <p>
+        Select the icon representing the type of the project you want to
+        create and click on <gui>Forward</gui>.
+      </p>
+      <note style="tip">
+        <p>
+          Leave the mouse over a project icon for a second and a small pop-up
+          message will appear showing more information about this type of
+          project.
+        </p>
+      </note>
+    </item>
+    <item>
+      <p>
+        Depending on the selected project type, you will have to enter
+        different information. When you are done, click on <gui>Forward</gui>.
+      </p>
+      <p>
+        All informations are grouped in pages, typically you will have
+        to fill two or three pages. You can go back at any time using
+        the button <gui>Back</gui>.
+      </p>
+      <note style="tip">
+        <p>
+          Keep the mouse over the button or typing area for a second to get a
+          small pop-up message with more details about the corresponding
+          setting.
+        </p>
+      </note>
+    </item>
+    <item>
+      <p>
+        After filling out all the information pages, you will get a summary page listing
+        the main information about your project. Nothing has been written to your disk
+        yet at this point. Click on <gui>Apply</gui> to save the project and open
+        it in <app>Anjuta</app>.
+      </p>
+    </item>
+  </steps>
+
+  <note style="advanced">
+    <p>
+      Each project type corresponds to a template. <app>Anjuta</app> already
+      includes several templates but you can add custom ones and even write
+      your own.
+    </p>
+  </note>
+
+</page>
+

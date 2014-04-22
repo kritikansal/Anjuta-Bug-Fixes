@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="general-windows">
+
+  <info>
+    <link type="guide" xref="index#faq-general"/>
+    <desc>It is not planned.</desc>
+    
+    <revision pkgversion="0.1" version="0.1" date="2010-12-02" status="stub"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Naba Kumar</name>
+      <email>naba@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Biswapesh Chattopadhyayr</name>
+    </credit>
+  </info>
+
+  <title>Is/will there be <app>Anjuta</app> for Microsoft Windows?</title>
+
+  <p>There is no native port for Microsoft Windows and most likely there will never be.
+  However, if you are interested, feel free to <link href="https://mail.gnome.org/mailman/listinfo/anjuta-list">contact us</link>.</p>
+
+</page>

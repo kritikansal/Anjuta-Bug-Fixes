@@ -1,0 +1,54 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="autotools-project-backend">
+
+  <info xmlns:facet="http://projectmallard.org/facet/1.0/">
+    <facet:tag key="all-pages" value="whatever"/> <!--Include page in index-->
+    <link type="guide" xref="project-manager#backend"/>
+    <desc>
+      Autotools project backend.
+    </desc>
+    <credit type="author">
+      <name>Sébastien Granjoux</name>
+      <email>seb.sfo@free.fr</email>
+    </credit>
+    <credit type="editor">
+      <name>Philip Chimento</name>
+      <email>philip.chimento@gmail.com</email>
+    </credit>
+  </info>
+
+  <title>GNU Autotools project backend plugin</title>
+
+  <p>
+    This is the most common project format on Linux. It has been designed to
+    distribute source code packages on a wide range of Unix-like systems.
+    If you have ever installed a program using <cmd>configure</cmd>,
+    <cmd>make</cmd> and <cmd>make install</cmd>, you probably have already
+    used it as a user.
+  </p>
+
+  <p> 
+    It is typically a bit more difficult to use as a developer.
+    However, it is the default backend for <app>Anjuta</app>, which has features
+    that make it easier to use. All the project manager's features are enabled
+    when using it.
+    You should be able to maintain a project using the Autotools backend without
+    writing a line in <file>configure.ac</file> or any <file>Makefile.am</file> files.
+  </p> 
+
+  <note style="bug">
+    <p>
+      Autotools files give more information than a makefile, but the backend
+      does not support all the possible tricks. If you find a project that
+      cannot be read correctly, filing a <link
+      href="https://bugzilla.gnome.org/browse.cgi?product=anjuta">bug report</link>
+      will be appreciated.
+      In the meantime, as a workaround, you can use the directory project backend
+      instead. It is much more limited but should find all source files.
+    </p>
+  </note>
+
+
+</page>
+

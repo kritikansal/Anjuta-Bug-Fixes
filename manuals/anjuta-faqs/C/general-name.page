@@ -1,0 +1,32 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="general-name">
+
+  <info>
+    <link type="guide" xref="index#faq-general"/>
+
+    <revision pkgversion="0.1" version="0.1" date="2010-12-02" status="stub"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Andy Piper</name>
+    </credit>
+    <credit type="author">
+      <name>Naba Kumar</name>
+      <email>naba@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Biswapesh Chattopadhyayr</name>
+    </credit>
+  </info>
+
+
+  <title>What does the name <app>Anjuta</app> stand for?</title>
+
+  <p>It is not one of those recursive names.
+  <app>Anjuta</app> is the name of the girlfriend of the founder of this application, Naba Kumar.
+  This application is dedicated to her.</p>
+
+</page>
